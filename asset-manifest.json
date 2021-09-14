@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolioPage/static/css/main.6851a8ba.chunk.css",
+    "main.js": "/portfolioPage/static/js/main.01b477f0.chunk.js",
+    "main.js.map": "/portfolioPage/static/js/main.01b477f0.chunk.js.map",
+    "runtime-main.js": "/portfolioPage/static/js/runtime-main.2ad4a3a5.js",
+    "runtime-main.js.map": "/portfolioPage/static/js/runtime-main.2ad4a3a5.js.map",
+    "static/css/2.ae9e5f60.chunk.css": "/portfolioPage/static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.1c9b6c39.chunk.js": "/portfolioPage/static/js/2.1c9b6c39.chunk.js",
+    "static/js/2.1c9b6c39.chunk.js.map": "/portfolioPage/static/js/2.1c9b6c39.chunk.js.map",
+    "index.html": "/portfolioPage/index.html",
+    "static/css/2.ae9e5f60.chunk.css.map": "/portfolioPage/static/css/2.ae9e5f60.chunk.css.map",
+    "static/css/main.6851a8ba.chunk.css.map": "/portfolioPage/static/css/main.6851a8ba.chunk.css.map",
+    "static/js/2.1c9b6c39.chunk.js.LICENSE.txt": "/portfolioPage/static/js/2.1c9b6c39.chunk.js.LICENSE.txt",
+    "static/media/Desarroll-web.478d8de8.png": "/portfolioPage/static/media/Desarroll-web.478d8de8.png",
+    "static/media/Diseño-gráfico.fb941028.png": "/portfolioPage/static/media/Diseño-gráfico.fb941028.png",
+    "static/media/Logo_AF_yellow.37df8c02.png": "/portfolioPage/static/media/Logo_AF_yellow.37df8c02.png",
+    "static/media/calaca-logo.05f6835b.jpg": "/portfolioPage/static/media/calaca-logo.05f6835b.jpg",
+    "static/media/form.07ccd3b5.JPG": "/portfolioPage/static/media/form.07ccd3b5.JPG",
+    "static/media/home.359edd7f.JPG": "/portfolioPage/static/media/home.359edd7f.JPG",
+    "static/media/home.e060e773.JPG": "/portfolioPage/static/media/home.e060e773.JPG",
+    "static/media/karting.3b1b0537.jpg": "/portfolioPage/static/media/karting.3b1b0537.jpg",
+    "static/media/lara-del-mar.d1bcdf84.jpg": "/portfolioPage/static/media/lara-del-mar.d1bcdf84.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ad4a3a5.js",
+    "static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.1c9b6c39.chunk.js",
+    "static/css/main.6851a8ba.chunk.css",
+    "static/js/main.01b477f0.chunk.js"
+  ]
+}
