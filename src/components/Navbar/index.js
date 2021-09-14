@@ -28,7 +28,7 @@ const Navbar = () => {
              className='navbar'
         >
             <div className="logo-name">
-                <Link to='/'>
+                <Link to='/portfolioPage/'>
                     <img src={Logo} alt="Logo AF" />
                 </Link>
 

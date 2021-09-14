@@ -16,12 +16,12 @@ import ProjectDetail from './pages/ProjectDetail';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/'>
       <Navbar />
       <Sidebar />
 
       <Switch>
-        <Route exact path= '/'> 
+        <Route exact path= '/portfolioPage/'> 
           <Home />
         </Route>
 
