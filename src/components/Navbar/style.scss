@@ -1,0 +1,35 @@
+$blue: #434D66;
+$dark-blue: #191D29;
+$green: #38ABA3;
+$white: #ECEBF3;
+$brown: #B98B02;
+$yellow: #F1C711;
+
+
+.navbar {
+    color: $yellow;
+    margin: 1rem 10rem ;
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    z-index: 100;
+    background-color: none;
+    .logo-name {
+        display: flex;
+
+        h3 {
+            margin-left: 4rem;
+            font-size: 1.5rem;
+        }
+        img {
+            max-width: 80px;
+        }
+    }
+
+    .menu {
+        ul, li {
+            font-size: 2rem;
+            cursor: pointer;
+        }
+    }
+}

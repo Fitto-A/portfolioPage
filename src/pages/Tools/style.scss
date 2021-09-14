@@ -1,0 +1,59 @@
+$blue: #434D66;
+$dark-blue: #191D29;
+$green: #38ABA3;
+$white: #ECEBF3;
+$brown: #B98B02;
+$yellow: #F1C711;
+
+
+.tools{
+    margin: 0;
+    padding: 0;
+    height: 95%;
+
+    .bg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        img{
+            max-width: 100%;
+        }
+
+    }
+}
+
+.tools-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+    h2 {
+        color: $green;
+        margin: 3rem auto;
+        font-size: 1.8rem;
+    }
+
+    img {
+        max-width: 500px;
+        margin-bottom: 2rem;
+    }
+    
+    .desarrollo-web{
+        margin-left: 15rem;
+    }
+
+    .design{
+        margin-right: 15rem;
+    }
+
+    .tools-info {
+        font-size: 1.5rem;
+        color: $green;
+
+ 
+            .lines{
+                color: $yellow;
+            }
+        
+    }
+}
