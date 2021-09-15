@@ -41,7 +41,7 @@ const Home = () => {
                             data-aos="fade-up-right"
                             data-aos-duration='1200'
                         >
-                            PROJECTOS
+                            PROYECTOS
                         </Button>
                     </Link>
                 </div>
