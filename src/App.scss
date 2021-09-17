@@ -34,7 +34,36 @@ li {
     margin: 0;
     padding: 2rem 0 0 0 ;
     height: 100%;
+
+    .article {
+        max-width: 650px;
+        text-align: center;
+        margin: auto;
+        z-index: 100;
+        background-color: $dark-blue;
+        bottom: -5rem;
+        position: relative;
+        padding: 1rem 2rem;
+        border-radius: 8px;
+        border: solid 10px $green;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        color: $green;
+        p{
+            a{
+                text-decoration: none;
+                color: $blue;
+                transition: all 0.5s ease-in-out;
+                &:hover{
+                    color: $yellow;
+                    transition: all 0.5s ease-in-out;
+
+                }
+            }
+        }
+    }
 }
+
 .home-container {
 
     display: flex;
@@ -76,6 +105,13 @@ li {
     }
 
 }
+
 .navbar {
     z-index: 100;
 }
+
+@media (max-width: 800px) {
+            h2{
+                font-size: 10rem;
+            }
+  }

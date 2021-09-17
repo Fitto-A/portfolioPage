@@ -2,10 +2,12 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.scss';
 
+
 //COMPONENTS
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 //PAGES
 import Home from './pages/Home';
@@ -19,7 +21,8 @@ function App() {
     <Router>
       <Navbar />
       <Sidebar />
-
+      
+      <ScrollToTop />
       <Switch>
         <Route exact path= '/portfolioPage/'> 
           <Home />
@@ -43,7 +46,6 @@ function App() {
       </Switch>
 
       <Footer />
-
     </Router>
 
   );

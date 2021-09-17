@@ -15,9 +15,10 @@ const Home = () => {
         <div className="home">
             <div className="home-container">
                 <div 
+                    className="home-tittle"
                     data-aos="zoom-in"
                     data-aos-duration="500"
-                    className="home-tittle">
+                >
                     <h2>
                         PORT
                         FOLIO
@@ -45,6 +46,12 @@ const Home = () => {
                         </Button>
                     </Link>
                 </div>
+            </div>
+
+            <div className="article">
+                <article>
+                    <p>Hola soy Agustin, tengo 2 años de experiencia desarrollando webs con JS y React. También soy diseñador gráfico y hace más de 4 años que trabajo especialmente en la identidad de marca de mis clientes. Abajo están mis redes si queres  contactarme, y sino mandame un mensaje por mail en la sección de <Link to='/contacto'>contacto</Link>.</p>
+                </article>
             </div>
         </div>
     )

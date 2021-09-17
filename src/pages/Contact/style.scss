@@ -12,10 +12,31 @@ $yellow: #F1C711;
     text-align: center;
     display: block;
     margin: 0 auto;
- 
+
     .contact-container {
         padding: 2rem;
         margin: 5rem;
+
+        .alertOk{
+            top: 0;
+            margin: auto;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            color: $yellow;
+            border: solid 2px $yellow;
+            max-width: 300px;
+            margin-top: -3rem;
+            transition: all 0.5s ease-in-out;
+        }
+            
+        h4{
+            text-align: left;
+            color: $green;
+            font-size: 1.5rem;
+            margin-bottom: 3rem;
+            margin-top: 4rem;
+        }
+    
 
         .contact-form {
             height: 100px;
