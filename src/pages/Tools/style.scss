@@ -57,3 +57,25 @@ $yellow: #F1C711;
         
     }
 }
+
+@media (max-height: 900px) {
+
+    .tools{
+        height: max-content;
+    }
+    .tools-container{
+        
+        margin-bottom: 10rem;
+        img{
+            max-width: 400px;
+        }
+
+        .desarrollo-web{
+            margin-left: 8rem;
+        }
+        .design{
+            margin-right: 8rem;
+        }
+    }
+
+}

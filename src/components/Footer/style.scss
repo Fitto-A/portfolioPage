@@ -38,6 +38,27 @@ $yellow: #F1C711;
     }
 }
 
+@media (max-width: 1400px ) {
+  .footer-container{
+    .copy{
+      margin: 5rem;
+    }
+  }
+}
+
+
+@media (max-width: 800px) {
+  .footer {
+    .footer-container{
+      margin-top: 6.5rem;
+      .animation-btn{
+        margin: 0 1rem;
+      }
+
+    }
+  }
+}
+
 .logo {
     img {
         max-width: 80px;

@@ -33,3 +33,32 @@ $yellow: #F1C711;
         }
     }
 }
+
+@media (max-width: 1500px) {
+    .navbar{
+        margin: 1rem 5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .navbar{
+        margin: 1rem 2rem;
+
+        .logo-name{
+            h3{
+                margin-left: 2rem;
+                font-size: 1rem;
+            }
+            img{
+                max-width: 60px;
+            }
+        }
+
+        .menu {
+            ul, li {
+                font-size: 1.5rem;
+                top: 0rem;
+            }
+        }
+    }
+}

@@ -68,7 +68,59 @@ $yellow: #F1C711;
                 background-color: $blue;
                 color: $green;
                 border: none;
+
             }
+        }
+    }
+}
+
+
+@media (max-height: 700px) {
+
+    .contact {
+        .contact-container{
+            margin: 0;
+            padding: 1rem;
+            .contact-form{
+                display: block;
+
+                .form-input{
+                    display: block;
+                    width: 98%;
+                    margin: auto;
+                    margin-bottom: 1rem;
+                }
+
+                .form-textarea {
+                    margin-top: -3rem;
+                }
+            }
+
+        }
+    }
+}
+
+@media (max-width: 1750px) {
+
+    .contact {
+        .contact-container{
+            margin: 0;
+            padding: 1rem;
+            .contact-form{
+                display: block;
+
+                .form-input{
+                    display: block;
+                    width: 98%;
+                    margin: auto;
+                    margin-bottom: 1rem;
+                }
+
+                .form-textarea {
+                    margin-top: -3rem;
+                }
+            }
+
         }
     }
 }

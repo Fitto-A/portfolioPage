@@ -55,3 +55,19 @@ $blue: #434D66;
     transition: all 0.4s ease-in-out;
     z-index: 1;
 }
+
+@media (max-width: 800px) {
+    .sidebar{
+        width: 70%;
+        .menu-links{
+            margin: 10rem auto;
+            ul{
+                padding-left: 0;
+            }
+            a{
+                font-size: 1.4rem;
+                line-height: 4rem;
+            }
+        }
+    }
+}
