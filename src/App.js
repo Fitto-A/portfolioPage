@@ -24,7 +24,7 @@ function App() {
       
       <ScrollToTop />
       <Switch>
-        <Route exact path= '/portfolioPage'> 
+        <Route path= '/portfolioPage'> 
           <Home />
         </Route>
 
