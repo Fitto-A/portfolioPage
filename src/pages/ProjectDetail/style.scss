@@ -13,7 +13,7 @@ $yellow: #F1C711;
     padding: 3rem 0;
     border-radius: 25px;
     background: rgba(25,29,41,0.85);
-    border: solid 1px #434D66;
+    border: solid 1px $white;
 
     .back-link {
         color: $brown;
@@ -53,7 +53,7 @@ $yellow: #F1C711;
             grid-template-columns: 25% 25% 25% 25%;
             margin: auto;
             font-size: 1.5rem;
-            color: #38ABA3;
+            color: $green;
             grid-template-rows: 1fr;
 
             .detail-info-content {
@@ -89,7 +89,7 @@ $yellow: #F1C711;
         .divide{
             margin: 4rem auto 4rem auto;
             border-top: solid 1px $yellow;
-            width: 75%;
+            width: 80%;
         }
 
         .detail-img {

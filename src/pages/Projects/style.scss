@@ -57,8 +57,6 @@ $yellow: #F1C711;
             height: 2rem;
         }
     }
-
-
 }
 
 .projects{
@@ -128,10 +126,11 @@ $yellow: #F1C711;
     }  
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 500px) {
     .projects-page{
         padding: 2rem 0.8rem;
         margin: 1rem;
+        margin-bottom: 4rem;
         img{
             margin: 0 auto;
             max-width: 300px;
@@ -141,11 +140,17 @@ $yellow: #F1C711;
             .projects{
                 display: block;
                 margin: auto;
-                margin-bottom: 8rem;
+                margin-bottom: 4rem;
+
+                .project-img{
+                    margin: 0;
+                    display: flex;
+                }
 
                 .project-info{
                     text-align: left;
-                    margin: 0 auto;
+                    margin: 0 1rem;
+                    display: flow-root;
 
                     h2{
                         font-size: 1rem;
@@ -170,7 +175,6 @@ $yellow: #F1C711;
         }
     }
 }
-
 
 .animation-links{
     bottom: -2rem;
