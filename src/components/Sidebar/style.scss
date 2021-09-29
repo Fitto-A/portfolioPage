@@ -71,3 +71,19 @@ $blue: #434D66;
         }
     }
 }
+
+@media screen and (max-width: 420px) {
+    .sidebar{
+        width: 50%;
+        .menu-links{
+            margin: 10rem 1rem;
+            ul{
+                padding-left: 0;
+            }
+            a{
+                font-size: 1rem;
+                line-height: 4rem;
+            }
+        }
+    }
+}

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import Logo from '../../imgs/Logo_AF_yellow.png';
 
 import { AiOutlineLine } from "react-icons/ai";
-import { HiMenuAlt4 } from "react-icons/hi";
+import { HiMenu } from "react-icons/hi";
 
 import { useGlobalFunctions } from '../context/globalFunctions';
 
@@ -37,11 +37,30 @@ const Navbar = () => {
             <div className="menu">
                 <ul>
                     <li onClick={openSidebar}>
-                        <HiMenuAlt4 />
+                        <HiMenu />
                     </li>
                 </ul>
-
             </div>
+            
+            <div className="menu-links">
+                    <ul>
+                        <li>
+                            <Link to='/proyectos'>
+                                PROYECTOS
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to='/conocimientos'>
+                                CONOCIMIENTOS
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to='/contacto'>
+                                CONTACTO
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
         </div>
     )
 }

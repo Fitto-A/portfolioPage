@@ -36,6 +36,12 @@ $yellow: #F1C711;
     }
 }
 
+@media screen and (max-width: 420px) {
+  .form-btn{
+    font-size: 0.8rem;
+  }
+}
+
 .animacion-btn {
     &:hover {
         color: $yellow;

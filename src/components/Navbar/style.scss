@@ -8,7 +8,7 @@ $yellow: #F1C711;
 
 .navbar {
     color: $yellow;
-    margin: 1rem 10rem ;
+    margin: 2rem 10rem ;
     display: flex;
     justify-content: space-between;
     height: 5rem;
@@ -18,8 +18,9 @@ $yellow: #F1C711;
         display: flex;
 
         h3 {
-            margin-left: 4rem;
-            font-size: 1.5rem;
+            margin-left: 3rem;
+            font-size: 1.6rem;
+            font-weight: 500;
         }
         img {
             max-width: 80px;
@@ -32,21 +33,64 @@ $yellow: #F1C711;
             cursor: pointer;
         }
     }
-}
-
-@media (max-width: 1500px) {
-    .navbar{
-        margin: 1rem 5rem;
+    .menu-links{
+        a{
+            font-weight: 600;
+        }
     }
 }
 
-@media (max-width: 450px) {
+@media screen and (min-width: 800px) {
+    .navbar{
+        .menu{
+            display: none;
+        }
+
+        .menu-links{
+            ul{
+                display: flex;
+                margin-top: 24px;
+                margin-bottom: 24px;
+            }
+            a{
+                font-size: 1.6rem;
+                color: $green;
+                padding-right: 2rem;
+                text-decoration: none;
+                transition: all 0.5s ease-in-out;
+
+                &:hover {
+                    color: $yellow;
+                    transition: all 0.5s ease-in-out;
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar{
+        margin: 2rem 6rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .navbar{
+        margin: 2rem 4rem;
+        .menu-links{
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 420px) {
     .navbar{
         margin: 1rem 2rem;
 
         .logo-name{
             h3{
-                margin-left: 2rem;
+                margin-left: 1rem;
                 font-size: 1rem;
             }
             img{
@@ -56,8 +100,9 @@ $yellow: #F1C711;
 
         .menu {
             ul, li {
-                font-size: 1.5rem;
+                font-size: 2rem;
                 top: 0rem;
+                margin-top: 0.8rem;
             }
         }
     }

@@ -19,9 +19,13 @@ const Home = () => {
                     data-aos="zoom-in"
                     data-aos-duration="500"
                 >
-                    <h2>
+                    {/* <h2>
                         PORT
                         FOLIO
+                    </h2> */}
+                    <h2>
+                        Port
+                        folio
                     </h2>
                 </div>
                 <div className="home-subtittle">

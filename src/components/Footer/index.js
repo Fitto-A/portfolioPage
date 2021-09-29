@@ -12,7 +12,7 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <div className="footer-container">
-                <a className='logo' href="http://localhost:3000/">
+                <a className='logo' href="/portfolioPage/">
                     <img src={Logo} alt="Logo AF" />
                 </a>
 
@@ -31,7 +31,7 @@ const Footer = () => {
                     </a>
                 </div>
 
-                <p className='copy'>Copyright © 2021 <Link to='/'>Agustin Fittipaldi</Link></p>
+                <p className='copy'>Copyright © 2021 <Link to='/portfolioPage/'>Agustin Fittipaldi</Link></p>
             </div>
         </footer>
     )
