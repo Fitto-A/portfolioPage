@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolioPage/static/css/main.8016bc89.chunk.css",
+    "main.css": "/portfolioPage/static/css/main.5cf3e9d1.chunk.css",
     "main.js": "/portfolioPage/static/js/main.3b6fddb4.chunk.js",
     "main.js.map": "/portfolioPage/static/js/main.3b6fddb4.chunk.js.map",
     "runtime-main.js": "/portfolioPage/static/js/runtime-main.2ad4a3a5.js",
@@ -10,7 +10,7 @@
     "static/js/2.02568282.chunk.js.map": "/portfolioPage/static/js/2.02568282.chunk.js.map",
     "index.html": "/portfolioPage/index.html",
     "static/css/2.ae9e5f60.chunk.css.map": "/portfolioPage/static/css/2.ae9e5f60.chunk.css.map",
-    "static/css/main.8016bc89.chunk.css.map": "/portfolioPage/static/css/main.8016bc89.chunk.css.map",
+    "static/css/main.5cf3e9d1.chunk.css.map": "/portfolioPage/static/css/main.5cf3e9d1.chunk.css.map",
     "static/js/2.02568282.chunk.js.LICENSE.txt": "/portfolioPage/static/js/2.02568282.chunk.js.LICENSE.txt",
     "static/media/Api-logo.c1fcaab1.jpg": "/portfolioPage/static/media/Api-logo.c1fcaab1.jpg",
     "static/media/Desarroll-web.478d8de8.png": "/portfolioPage/static/media/Desarroll-web.478d8de8.png",
@@ -36,7 +36,7 @@
     "static/js/runtime-main.2ad4a3a5.js",
     "static/css/2.ae9e5f60.chunk.css",
     "static/js/2.02568282.chunk.js",
-    "static/css/main.8016bc89.chunk.css",
+    "static/css/main.5cf3e9d1.chunk.css",
     "static/js/main.3b6fddb4.chunk.js"
   ]
 }
