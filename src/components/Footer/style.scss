@@ -4,6 +4,7 @@ $green: #38ABA3;
 $white: #ECEBF3;
 $brown: #B98B02;
 $yellow: #F1C711;
+$orange: #EE6C4D;
 
 .footer {
     background-color: $blue;
@@ -11,7 +12,7 @@ $yellow: #F1C711;
     position: relative;
     max-height: 40rem;
     margin-top: -8rem;
-    border-top: solid 10px $green;
+    border-top: solid 3px $orange;
     color: $brown;
     padding: 0;
     margin: 0 auto;
@@ -19,20 +20,21 @@ $yellow: #F1C711;
 
 .footer-container {
     text-align: center;
-    margin-top: 12rem;
+    margin-top: 6rem;
 
     .copy{
         color: $dark-blue;
-        margin: 7rem;
-        font-size: 1rem;
+        margin: 6rem;
+        font-size: 0.9rem;
         padding-bottom: 2rem;
-        
+        font-family: 'Shippori Mincho', 'Maitree';
+        font-weight: 400;   
         a{
-            color: $green;
+            color: $dark-blue;
             font-size: 1rem;
             text-decoration: none;
             &:hover {
-                color: $yellow;
+                color: $green;
             }
         }
     }
@@ -108,7 +110,7 @@ $yellow: #F1C711;
 
 a{
     &:hover {
-      color: $yellow;
+      color: $orange;
       transition: all 0.5s ease-in-out;
     }
   
@@ -122,15 +124,15 @@ a{
     }
   
     &::before {
-      border-top: 2px solid $yellow;
-      border-bottom: 2px solid $yellow;
+      border-top: 2px solid $orange;
+      border-bottom: 2px solid $orange;
       border-radius: 50%;
       transform: scale3d(0,1,1); 
     }
   
     &::after {
-      border-left: 2px solid $yellow;
-      border-right: 2px solid $yellow;
+      border-left: 2px solid $orange;
+      border-right: 2px solid $orange;
       border-radius: 50%;
       transform: scale3d(1,0,1); 
     }

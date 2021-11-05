@@ -1,12 +1,9 @@
 import React, { useEffect } from 'react';
 import './style.scss';
 import { Link } from 'react-router-dom'
-
-import Logo from '../../imgs/Logo_AF_yellow.png';
-
+import Logo from '../../imgs/Logo-af-orange.png';
 import { AiOutlineLine } from "react-icons/ai";
 import { HiMenu } from "react-icons/hi";
-
 import { useGlobalFunctions } from '../context/globalFunctions';
 
 import Aos from 'aos';
@@ -29,7 +26,7 @@ const Navbar = () => {
         >
             <div className="logo-name">
                 <Link to='/portfolioPage/'>
-                    <img src={Logo} alt="Logo AF" />
+                    <img src={Logo} alt="Logo monograma AF naranja" />
                 </Link>
 
                 <h3>Agustin Fittipaldi</h3>
@@ -45,17 +42,17 @@ const Navbar = () => {
             <div className="menu-links">
                     <ul>
                         <li>
-                            <Link to='/proyectos'>
+                            <Link className='proyectos-link' to='/proyectos'>
                                 PROYECTOS
                             </Link>
                         </li>
                         <li>
-                            <Link to='/conocimientos'>
+                            <Link className='conocimientos-link' to='/conocimientos'>
                                 CONOCIMIENTOS
                             </Link>
                         </li>
                         <li>
-                            <Link to='/contacto'>
+                            <Link className='contacto-link' to='/contacto'>
                                 CONTACTO
                             </Link>
                         </li>

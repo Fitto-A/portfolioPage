@@ -1,19 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './style.scss';
 import { Link } from 'react-router-dom';
 
-import Logo from '../../imgs/Logo_AF_yellow.png';
-
-//LINKS
+import Logo from '../../imgs/Logo-af-green.png';
 import { FaBehance, FaLinkedinIn } from "react-icons/fa";
 import { FiGithub, FiMail } from "react-icons/fi";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Footer = () => {
+
+    useEffect(() => {
+        Aos.init();
+    }, [])
+
     return (
-        <footer className='footer'>
+        <footer data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+            data-aos-anchor-placement="top-bottom"
+            className='footer'>
             <div className="footer-container">
                 <a className='logo' href="/portfolioPage/">
-                    <img src={Logo} alt="Logo AF" />
+                    <img src={Logo} alt="Logo monograma AF verde" />
                 </a>
 
                 <div className="links">
@@ -31,7 +40,7 @@ const Footer = () => {
                     </a>
                 </div>
 
-                <p className='copy'>Copyright © 2021 <Link to='/portfolioPage/'>Agustin Fittipaldi</Link></p>
+                <p className='copy'>© 2021 | <Link to='/portfolioPage/'>Agustin Fittipaldi</Link></p>
             </div>
         </footer>
     )

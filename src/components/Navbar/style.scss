@@ -4,11 +4,11 @@ $green: #38ABA3;
 $white: #ECEBF3;
 $brown: #B98B02;
 $yellow: #F1C711;
-
+$orange: #EE6C4D;
 
 .navbar {
-    color: $yellow;
-    margin: 2rem 10rem ;
+    color: $green;
+    margin: 1rem 5rem 2rem 5rem;
     display: flex;
     justify-content: space-between;
     height: 5rem;
@@ -23,7 +23,8 @@ $yellow: #F1C711;
             font-weight: 500;
         }
         img {
-            max-width: 80px;
+            max-width: 60px;
+            margin-top: 1rem;
         }
     }
 
@@ -35,11 +36,92 @@ $yellow: #F1C711;
     }
     .menu-links{
         a{
-            font-weight: 600;
-            letter-spacing: 0.08rem;
+            font-weight: 400;
         }
     }
 }
+.menu-links{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    ul{
+        display: flex;
+        li{
+            display: contents;
+        }
+    }
+    a{
+        font-size: 1.4rem;
+        color: $green;
+        padding: 2.5rem;
+        text-decoration: none;
+        transform: translate(10px, 10px);
+        transition: all 1s ease-in-out;
+    }
+
+    .proyectos-link:hover{
+        color: $orange;
+        // position: absolute;
+        top: 0;
+        right: -100px;
+        letter-spacing: 0.2rem;
+        animation-delay: 0.5s;
+        animation-name: rotate-29;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+
+    .conocimientos-link:hover{
+        color: $orange;
+        // position: absolute;
+        top: 0;
+        right: -100px;
+        letter-spacing: 0.2rem;
+        animation-delay: 0.5s;
+        animation-name: rotate-29;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+    .contacto-link:hover{
+        color: $orange;
+        // position: absolute;
+        top: 0;
+        right: -100px;
+        letter-spacing: 0.2rem;
+        animation-delay: 0.5s;
+        animation-name: rotate-Contact;
+        animation-fill-mode: both;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes rotate-29 {
+        0% {
+            transform: translate(40px, 10px) rotate(0);
+            transform-origin: 100% 100%;
+        }
+        100% {
+            transform: translate(40px, 0px) rotate(-29deg);
+            transform-origin: 100% 100%;
+        }
+    }
+    @keyframes rotate-Contact {
+        0% {
+            transform: translate(-38px, 10px) rotate(0);
+            transform-origin: 100% 100%;
+        }
+        100% {
+            transform: translate(-38px, 0px) rotate(-29deg);
+            transform-origin: 100% 100%;
+        }
+    }
+}
+
+
+
 
 @media screen and (min-width: 800px) {
     .navbar{
@@ -47,28 +129,10 @@ $yellow: #F1C711;
             display: none;
         }
 
-        .menu-links{
-            ul{
-                display: flex;
-                margin-top: 24px;
-                margin-bottom: 24px;
-            }
-            a{
-                font-size: 1.6rem;
-                color: $green;
-                padding-right: 2rem;
-                text-decoration: none;
-                transition: all 0.5s ease-in-out;
 
-                &:hover {
-                    color: $yellow;
-                    transition: all 0.5s ease-in-out;
-
-                }
-            }
-        }
     }
 }
+
 
 @media screen and (max-width: 1200px) {
     .navbar{

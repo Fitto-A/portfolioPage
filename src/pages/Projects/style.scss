@@ -4,6 +4,8 @@ $green: #38ABA3;
 $white: #ECEBF3;
 $brown: #B98B02;
 $yellow: #F1C711;
+$orange: #EE6C4D;
+
 
 .projects-page {
     margin: 3rem 10rem 20rem 10rem;
@@ -94,7 +96,7 @@ $yellow: #F1C711;
     h2{
         font-size: 1.8rem;
         font-weight: 800;
-        color: $yellow;
+        color: $orange;
         margin: 0;
         margin-bottom: 1rem;
     }
@@ -106,7 +108,7 @@ $yellow: #F1C711;
 
     .divide{
         margin: 2.5rem auto 1rem auto;
-        border-top: solid 1px $yellow;
+        border-top: solid 1px $orange;
         width: 75%;
     }
     
@@ -198,14 +200,14 @@ $yellow: #F1C711;
         box-sizing: inherit;
         content: '';
         position: absolute;
-        width: 100%;
+        width: 101%;
         height: 100%;
     }
 }
 
 a{
     &:hover {
-      color: $yellow;
+      color: $orange;
       transition: all 0.5s ease-in-out;
     }
   
@@ -213,21 +215,21 @@ a{
     &::after {
       top: 0;
       left: 0;
-      height: 100%;
-      width: 100%;
+      height: 102%;
+      width: 102%;
       transform-origin: center; 
     }
   
     &::before {
-      border-top: 2px solid $yellow;
-      border-bottom: 2px solid $yellow;
+      border-top: 3px solid $orange;
+      border-bottom: 3px solid $orange;
       border-radius: 50%;
       transform: scale3d(0,1,1); 
     }
   
     &::after {
-      border-left: 2px solid $yellow;
-      border-right: 2px solid $yellow;
+      border-left: 3px solid $orange;
+      border-right: 3px solid $orange;
       border-radius: 50%;
       transform: scale3d(1,0,1); 
     }

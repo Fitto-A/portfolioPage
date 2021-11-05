@@ -98,7 +98,6 @@ const Projects = () => {
                                                             </Button>                                                        
                                                         </a>
                                                     }
-
                                                 </div>
                                                 }
                                             </div> 

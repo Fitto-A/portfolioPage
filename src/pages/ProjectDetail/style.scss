@@ -4,6 +4,7 @@ $green: #38ABA3;
 $white: #ECEBF3;
 $brown: #B98B02;
 $yellow: #F1C711;
+$orange: #EE6C4D;
 
 .project-detail{
     display: block;
@@ -29,7 +30,7 @@ $yellow: #F1C711;
             padding-right: 0.5rem;
             color: $white;
             &:hover{
-                color: $yellow;
+                color: $orange;
             }
         }
         .back{
@@ -37,7 +38,7 @@ $yellow: #F1C711;
             padding-top: 0.2rem;
             color: $green;
             &:hover{
-                color: $yellow;
+                color: $orange;
             }
         }
     }
@@ -88,7 +89,7 @@ $yellow: #F1C711;
         
         .divide{
             margin: 4rem auto 4rem auto;
-            border-top: solid 1px $yellow;
+            border-top: solid 1px $orange;
             width: 80%;
         }
 
