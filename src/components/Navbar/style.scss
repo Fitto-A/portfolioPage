@@ -67,7 +67,7 @@ $orange: #EE6C4D;
         right: -100px;
         letter-spacing: 0.2rem;
         animation-delay: 0.5s;
-        animation-name: rotate-29;
+        // animation-name: rotate-29;
         animation-fill-mode: both;
         animation-duration: 1s;
         animation-timing-function: ease-in-out;
@@ -80,7 +80,7 @@ $orange: #EE6C4D;
         right: -100px;
         letter-spacing: 0.2rem;
         animation-delay: 0.5s;
-        animation-name: rotate-29;
+        // animation-name: rotate-29;
         animation-fill-mode: both;
         animation-duration: 1s;
         animation-timing-function: ease-in-out;
@@ -92,32 +92,32 @@ $orange: #EE6C4D;
         right: -100px;
         letter-spacing: 0.2rem;
         animation-delay: 0.5s;
-        animation-name: rotate-Contact;
+        // animation-name: rotate-Contact;
         animation-fill-mode: both;
         animation-duration: 1s;
         animation-timing-function: ease-in-out;
     }
 
-    @keyframes rotate-29 {
-        0% {
-            transform: translate(40px, 10px) rotate(0);
-            transform-origin: 100% 100%;
-        }
-        100% {
-            transform: translate(40px, 0px) rotate(-29deg);
-            transform-origin: 100% 100%;
-        }
-    }
-    @keyframes rotate-Contact {
-        0% {
-            transform: translate(-38px, 10px) rotate(0);
-            transform-origin: 100% 100%;
-        }
-        100% {
-            transform: translate(-38px, 0px) rotate(-29deg);
-            transform-origin: 100% 100%;
-        }
-    }
+    // @keyframes rotate-29 {
+    //     0% {
+    //         transform: translate(40px, 10px) rotate(0);
+    //         transform-origin: 100% 100%;
+    //     }
+    //     100% {
+    //         transform: translate(40px, 0px) rotate(-29deg);
+    //         transform-origin: 100% 100%;
+    //     }
+    // }
+    // @keyframes rotate-Contact {
+    //     0% {
+    //         transform: translate(-38px, 10px) rotate(0);
+    //         transform-origin: 100% 100%;
+    //     }
+    //     100% {
+    //         transform: translate(-38px, 0px) rotate(-29deg);
+    //         transform-origin: 100% 100%;
+    //     }
+    // }
 }
 
 
@@ -168,6 +168,18 @@ $orange: #EE6C4D;
                 font-size: 2rem;
                 top: 0rem;
                 margin-top: 0.8rem;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-height: 700px) {
+    .navbar{
+        margin: 0 3rem 2rem 3rem;
+        .logo-name{
+            h3{
+                margin-left: 1.8rem;
             }
         }
     }

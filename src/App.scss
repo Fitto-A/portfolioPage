@@ -162,7 +162,6 @@ li {
         }
     }
 
-
     .article {
         max-width: 650px;
         text-align: center;
@@ -248,7 +247,6 @@ article.last-article {
     z-index: 100;
 }
 
-
 @media screen and (max-width: 800px) {
     .home {
         margin-bottom: 8rem;
@@ -270,7 +268,6 @@ article.last-article {
 }
 
 @media screen and (max-width: 500px) {
-
     .home{
         margin: 0;
         padding: 0;
@@ -338,6 +335,114 @@ article.last-article {
         }
     }
 }
+
+@media screen and (max-width: 1700px) {
+    .home-container{
+        .home-subtittle{
+            font-size: 5rem;
+            margin-top: 7rem;
+        }
+    }
+    .home img.bg-image-home{
+        transform: translate(125%, 28%) rotate(0deg);
+        &:hover{
+            animation: bgImgMoveResponsive 3s ease-in-out;
+        }
+    }
+}
+@media screen and (max-width: 1600px) {
+    .home-container{
+        .home-subtittle{
+            font-size: 4.5rem;
+            margin-top: 8rem;
+        }
+    }
+}
+
+@keyframes bgImgMoveResponsive {
+0%, 100% {
+    transform: translate(125%, 28%) rotate(0deg);
+}
+20%{
+    transform: translate(100%, 21%) rotate(29deg);
+}
+50%{
+    transform: translate(96%, 8%) rotate(29deg);
+}
+65%{
+    transform: translate(96%, 8%) rotate(29deg);
+}
+}
+
+
+@media screen and (max-widh: 1450px) {
+    .home-container{
+        .home-tittle h2{
+            margin-top: 16rem;
+        }
+        .home-subtittle{
+            font-size: 4rem;
+            margin-top: 2rem;
+        }
+    }
+    .home img.bg-image-home{
+        transform: translate(125%, 38%) rotate(0deg);
+        &:hover{
+            animation: bgImgMoveResponsive2 3s ease-in-out;
+        }
+    }
+    .home{
+        article.article-presentacion {
+            .sobre-mi-text{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@keyframes bgImgMoveResponsive2 {
+    0%, 100% {
+        transform: translate(125%, 38%) rotate(0deg);
+    }
+    20%{
+        transform: translate(100%, 21%) rotate(29deg);
+    }
+    50%{
+        transform: translate(96%, 16%) rotate(29deg);
+    }
+    65%{
+        transform: translate(96%, 16%) rotate(29deg);
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .home-container{
+        .home-tittle h2{
+            margin-top: 6rem;
+            margin-left: 9rem;
+        }
+        .home-subtittle{
+            font-size: 3rem;
+            margin-left: 9rem;
+            margin-top: 0;
+            h4{
+                margin: 1rem auto;
+            }
+        }
+    }
+    .home{
+        .home-arrow{
+            padding-top: 1rem;
+        }
+        article.article-presentacion {
+            padding: 2rem 14rem 2rem 9rem;
+            .sobre-mi-text{
+                width: 100%;
+            }
+        }
+    }
+}
+
 // @media (max-width: 1500px) {
 //     .home-container{
 //         // .home-tittle{
