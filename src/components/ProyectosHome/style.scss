@@ -484,3 +484,102 @@ $orange: #EE6C4D;
         }
     }
 }
+
+@media screen and (max-width: 500px) {
+    .proyectos-home-container{
+
+        .box-left:hover {
+            flex-direction: column;
+            margin-top: -8rem;
+        }
+        h2{
+            font-size: 2rem;
+        }
+        h2.title-desarrollo {
+            padding-bottom: 15rem;
+            padding-right: 0;
+        }
+        h2.title-diseño{
+            padding-bottom: 0;
+            padding-left: 0;
+            padding-top: 15rem;
+        }
+        span:nth-child(1):hover{
+            .title-desarrollo{
+                font-size: 1.2rem;
+                transform: translate(-50%, 85%);
+            }
+            .sp-desarrollo{
+                margin-top: 0;
+                margin-left: 0;
+            }
+            .selected-project-container-1 {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 4rem;
+            }
+            .selected-project-container-2 {
+                flex-direction: column;
+                margin-left: 0;
+            }
+            h3.sp-title {
+                margin: auto;
+                margin-left: 0;
+                font-size: 1.2rem;
+                margin-top: 0;
+            }
+            p.sp-text {
+                margin-left: 0;
+                font-size: 1rem;
+                max-width: 300px;
+            }
+            .sp-division {
+                border-width: 1px;
+                width: 300px;
+                display: flex;
+                margin: auto;
+                margin-left: 0;
+                margin-top: 0;
+            }
+            .links {
+                margin: auto;
+                display: flex;
+                margin-left: 0;
+                align-items: center;
+                justify-content: space-between;
+                position: relative;
+            }
+            .animation-links{
+                font-size: 1.6rem;
+            }
+            .sp-button {
+                margin-left: 0;
+            }
+            .sp-img-container img {
+                display: flex;
+                margin-left: 0;
+                width: 300px;
+            }
+        } 
+        span:nth-child(2){
+            clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
+        }
+        span:nth-child(2):hover{
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
+
+        span:nth-child(1):hover ~ span:nth-child(2){
+            clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+            transition: all .6s ease-in;
+        }
+        height: 500px;
+        &:hover {
+            height: 1000px;
+        }
+    }
+    .selected-project-container-1{
+        .proyect-info {
+            margin-left: 0;
+        }
+    }
+}
