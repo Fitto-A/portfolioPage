@@ -16,7 +16,6 @@ const Home = () => {
     const scrollDown = () => {
         let element = document.getElementById('article-id')
         element.scrollIntoView({behavior: "smooth", block: "center"})
-        console.log(element);
     }
 
     useEffect(() => {

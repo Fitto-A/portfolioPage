@@ -1,8 +1,9 @@
-import React, { useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import './style.scss'
 import { data } from '../../utils/data'
 import { Link } from 'react-router-dom';
 import Button from '../Button';
+import { BsChevronDown, BsChevronUp } from "react-icons/bs";
 
 import { FiGithub } from "react-icons/fi";
 import { FaBehance } from "react-icons/fa";
@@ -16,6 +17,8 @@ const ProyectosHome = () => {
     const proyecto3 = data.find(proyecto => proyecto.id === 1) //DESARROLLO
     const proyecto4 = data.find(proyecto => proyecto.id === 3) //DISEÑO
 
+    const [handleBox, setHandleBox] = useState(false)
+
 
     useEffect(() => {
         Aos.init({ duration: 3000, easing:'ease-in-out' });
@@ -28,6 +31,11 @@ const ProyectosHome = () => {
         ****************************** */}
         <span className='box-left'>
             <h2 className="title-desarrollo">Desarrollo front-end</h2>
+            <p className='arrow-desarrollo arrow-icon'><BsChevronDown /></p>
+            {/* <div className="arrow-desarrollo">
+                <button onClick={openProjectsBox} className='arrow-desarrollo arrow-icon'><BsChevronDown /></button>
+            </div> */}
+
             <div className="sp-desarrollo">
                 <div className="selected-project-container-1" data-aos='fade-right'  data-aos-duration='1000'>
                     <div className="proyect-info">
@@ -85,6 +93,7 @@ const ProyectosHome = () => {
         {/* PROYECTOS DISEÑO GRÁFICO
         ****************************** */}
         <span className='box-right'>
+            <p className='arrow-diseño arrow-icon'><BsChevronUp /></p>
             <h2 className="title-diseño">Diseño gráfico</h2>
 
             <div className="sp-diseño">

@@ -24,6 +24,23 @@ $orange: #EE6C4D;
         padding-left: 19rem;
         transition: all .6s ease-in;
     }
+    .arrow-desarrollo {
+        display: none;
+        margin: 0;
+        padding-right: 0;
+        transform: translateY(-240px);
+        font-size: 2rem;
+        transition: all .6s ease-out;
+    }
+    .arrow-diseño {
+        display: none;
+        margin: 0;
+        padding-right: 0;
+        font-size: 2rem;
+        transform: translateY(240px);
+        color: $blue;
+        transition: all .6s ease-out;
+    }
     span {
         position: absolute;
         top: 0;
@@ -487,8 +504,15 @@ $orange: #EE6C4D;
 
 @media screen and (max-width: 500px) {
     .proyectos-home-container{
-
-        .box-left:hover {
+        .box-left{
+            display: flex;
+            flex-direction: column;
+        }
+        .box-right{
+            display: flex;
+            flex-direction: column;
+        }
+        .box-left:hover, .box-left:active {
             flex-direction: column;
             margin-top: -8rem;
         }
@@ -504,7 +528,15 @@ $orange: #EE6C4D;
             padding-left: 0;
             padding-top: 15rem;
         }
-        span:nth-child(1):hover{
+        .arrow-desarrollo{
+            display: flex ;
+            transition: all .6s ease-out;
+        }
+        .arrow-diseño{
+            display: flex;
+            transition: all .6s ease-out;
+        }
+        span:nth-child(1):hover, span:nth-child(1):active{
             .title-desarrollo{
                 font-size: 1.2rem;
                 transform: translate(-50%, 85%);
@@ -530,7 +562,7 @@ $orange: #EE6C4D;
             }
             p.sp-text {
                 margin-left: 0;
-                font-size: 1rem;
+                font-size: 0.9rem;
                 max-width: 300px;
             }
             .sp-division {
@@ -560,20 +592,91 @@ $orange: #EE6C4D;
                 margin-left: 0;
                 width: 300px;
             }
+            .arrow-desarrollo{
+                transform: translateY(-400%);
+                transition: all .6s ease-in;
+                display: none;
+            }
         } 
         span:nth-child(2){
             clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
         }
-        span:nth-child(2):hover{
+        span:nth-child(2):hover, span:nth-child(2):active{
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            .arrow-diseño{
+                transform: translateY(400%);
+                transition: all .6s ease-in;
+                display: none;
+            }
+            .title-diseño{
+                font-size: 1.2rem;
+                transform: translate(-85%, -50%);
+            }
+            .sp-diseño{
+                margin: 0;
+                padding: 0;
+                transform: translateY(-10%);
+            }
+            .selected-project-container-3 {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 6rem;
+            }
+            .selected-project-container-4 {
+                flex-direction: column;
+                margin-left: 0;
+            }
+            .proyect-info {
+                margin-top: 1rem;
+            }
+            h3.sp-title {
+                margin: auto;
+                margin-left: 0;
+                font-size: 1.2rem;
+                margin-top: 0;
+            }
+            p.sp-text {
+                margin-left: 0;
+                font-size: 0.9rem;
+                max-width: 300px;
+            }
+            .sp-division {
+                border-width: 1px;
+                width: 300px;
+                display: flex;
+                margin: auto;
+                margin-left: 0;
+                margin-top: 0;
+            }
+            .links {
+                margin: auto;
+                display: flex;
+                margin-left: 0;
+                align-items: center;
+                justify-content: space-between;
+                position: relative;
+            }
+            .animation-links-neg{
+                font-size: 1.6rem;
+                margin-top: -1rem;
+                padding: 1.1rem 1.2rem 0.6rem 1.2rem;
+            }
+            .sp-button {
+                margin-left: 0;
+            }
+            .sp-img-container img {
+                display: flex;
+                margin-left: 0;
+                width: 300px;
+            }
         }
 
-        span:nth-child(1):hover ~ span:nth-child(2){
+        span:nth-child(1):hover ~ span:nth-child(2), span:nth-child(1):active ~ span:nth-child(2){
             clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
             transition: all .6s ease-in;
         }
-        height: 500px;
-        &:hover {
+        height: 1000px;
+        &:hover, &:active {
             height: 1000px;
         }
     }

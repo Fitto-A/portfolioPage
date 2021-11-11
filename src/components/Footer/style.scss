@@ -61,19 +61,25 @@ $orange: #EE6C4D;
   }
 }
 
-@media screen and (max-width: 420px) {
-    .footer{
-      .footer-container{
-        margin-top: 10rem;
+@media screen and (max-width: 500px) {
+  .footer {
+    .footer-container{
+      margin-top: 5.5rem;
+      .animation-btn{
+        margin: 0 1rem;
       }
       .copy{
-        font-size: 0.8rem;
-        a{
-        font-size: 0.8rem;
+        margin: 3rem auto auto auto;
+      }
+      .logo{
+        img{
+          margin-bottom: 3.5rem;
         }
       }
     }
+  }
 }
+
 .logo {
     img {
         max-width: 80px;

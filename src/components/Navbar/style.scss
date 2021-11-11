@@ -120,19 +120,13 @@ $orange: #EE6C4D;
     // }
 }
 
-
-
-
 @media screen and (min-width: 800px) {
     .navbar{
         .menu{
             display: none;
         }
-
-
     }
 }
-
 
 @media screen and (max-width: 1200px) {
     .navbar{
@@ -149,37 +143,36 @@ $orange: #EE6C4D;
     }
 }
 
-@media (max-width: 420px) {
-    .navbar{
-        margin: 1rem 2rem;
-
-        .logo-name{
-            h3{
-                margin-left: 1rem;
-                font-size: 1rem;
-            }
-            img{
-                max-width: 60px;
-            }
-        }
-
-        .menu {
-            ul, li {
-                font-size: 2rem;
-                top: 0rem;
-                margin-top: 0.8rem;
-            }
-        }
-    }
-}
-
-
 @media screen and (max-height: 700px) {
     .navbar{
         margin: 0 3rem 2rem 3rem;
         .logo-name{
             h3{
                 margin-left: 1.8rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar{
+        margin: 1rem 1.5rem;
+        .logo-name{
+            h3{
+                margin-left: 1rem;
+                font-size: 1rem;
+            }
+            img{
+                max-width: 45px;
+                margin-top: 0.2rem;
+            }
+        }
+        .menu {
+            margin-top: -5px;
+            ul, li {
+                font-size: 2rem;
+                top: 0rem;
+                margin-top: 0.8rem;
             }
         }
     }
