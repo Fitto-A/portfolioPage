@@ -4,16 +4,16 @@ $green: #38ABA3;
 $white: #ECEBF3;
 $brown: #B98B02;
 $yellow: #F1C711;
+$orange: #EE6C4D;
 
 
 .tools{
     margin: 0;
     padding: 0;
     height: 95%;
-
     margin: 3rem 10rem 8rem 10rem;
-    background: rgba(25,29,41,0.85);
-    border: solid 1px #fff;
+    background: rgba(25,29,41,0.3);
+    border: solid 1px $orange;
     border-radius: 20px;
     padding: 1rem 0rem;
 
@@ -56,10 +56,8 @@ $yellow: #F1C711;
     .tools-info {
         font-size: 1.5rem;
         color: $green;
-
- 
             .lines{
-                color: $yellow;
+                color: $orange;
             }
         
     }

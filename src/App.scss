@@ -27,11 +27,32 @@ a,
 li {
     list-style: none;
 }
+
+.arrowScrollToTop{
+    position: fixed;
+    font-size: 3rem;
+    color: $white;
+    right: 3rem;
+    bottom: 800px;
+    cursor: pointer;
+    z-index: 1000;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+.arrow-active{
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
+}
+
 .home{
     margin: 0;
     padding: 2rem 0 0 0 ;
     display: flex;
     flex-direction: column;
+
+
     img.bg-image-home {
         position: absolute;
         width: 44%;

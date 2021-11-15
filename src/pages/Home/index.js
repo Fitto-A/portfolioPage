@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import Button from '../../components/Button';
 import LogoBg from '../../imgs/Logo-bg3.png';
 import LogoBgSvg from '../../imgs/Logo-bg.svg';
-import { BsChevronDown } from "react-icons/bs";
+import { BsChevronDown, BsChevronUp } from "react-icons/bs";
 import { RiArrowRightSLine } from "react-icons/ri";
 import ProyectosHome from '../../components/ProyectosHome';
 
@@ -24,6 +24,7 @@ const Home = () => {
 
     return (
         <div className="home">
+            {/* <div className="arrowScrollToTop" onClick={handleScrollTop}><BsChevronUp /></div> */}
             <div className="home-display">
                 <img
                     className='bg-image-home'

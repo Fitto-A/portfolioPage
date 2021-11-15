@@ -13,7 +13,7 @@ import 'aos/dist/aos.css';
 
 const ProyectosHome = () => {
     const proyecto1 = data.find(proyecto => proyecto.id === 2) //DESARROLLO
-    const proyecto2 = data.find(proyecto => proyecto.id === 4) //DISEÑO
+    const proyecto2 = data.find(proyecto => proyecto.id === 8) //DISEÑO
     const proyecto3 = data.find(proyecto => proyecto.id === 1) //DESARROLLO
     const proyecto4 = data.find(proyecto => proyecto.id === 3) //DISEÑO
 

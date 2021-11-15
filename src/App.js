@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.scss';
 
+import { BsChevronUp } from "react-icons/bs";
 
 //COMPONENTS
 import Navbar from './components/Navbar';
@@ -16,13 +17,35 @@ import Tools from './pages/Tools';
 import Contact from './pages/Contact'; 
 import ProjectDetail from './pages/ProjectDetail';
 
-function App() {
+
+
+const App = () =>  {
+
+  const handleScrollTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+  }
+
+  const handleArrowScroll = () => {
+    window.addEventListener('scroll', function() {
+      let scroll = document.querySelector('.arrowScrollToTop')
+      scroll.classList.toggle('arrow-active', window.scrollY > 500)
+    })
+  }
+
+  useEffect(() => {
+    handleArrowScroll()
+  }, [])
+
   return (
     <Router basename="/">
       <Navbar />
       <Sidebar />
       
       <ScrollToTop />
+      <div className="arrowScrollToTop" onClick={handleScrollTop}><BsChevronUp /></div>
       <Switch>
         <Route exact path= '/portfolioPage/'> 
           <Home />

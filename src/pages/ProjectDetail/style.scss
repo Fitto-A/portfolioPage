@@ -8,13 +8,11 @@ $orange: #EE6C4D;
 
 .project-detail{
     display: block;
-    margin: 3rem 15rem 5rem 15rem;
+    // margin: 3rem 15rem 5rem 15rem;
     padding: 0;
     text-align: center;
-    padding: 3rem 0;
+    // padding: 3rem 0;
     border-radius: 25px;
-    background: rgba(25,29,41,0.85);
-    border: solid 1px $white;
 
     .back-link {
         color: $brown;
@@ -23,12 +21,14 @@ $orange: #EE6C4D;
         text-align: center;
         margin: auto;
         display: flex;
-        margin-left: 4rem;
+        margin-left: 9rem;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
 
         .arrow{
             font-size: 2rem;
-            padding-right: 0.5rem;
             color: $white;
+            padding-top: 3px;
             &:hover{
                 color: $orange;
             }
@@ -37,6 +37,7 @@ $orange: #EE6C4D;
             font-size: 1.4rem;
             padding-top: 0.2rem;
             color: $green;
+            
             &:hover{
                 color: $orange;
             }
@@ -49,33 +50,37 @@ $orange: #EE6C4D;
 
     .project-detail-container{
         .detail-info {
-            max-width: 1200px;
             display: grid;
             grid-template-columns: 25% 25% 25% 25%;
-            margin: auto;
             font-size: 1.5rem;
-            color: $green;
+            color: $blue;
+            background-color: #fff;
             grid-template-rows: 1fr;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
 
             .detail-info-content {
                 margin: auto;
                 justify-self: center;
+                text-align: left;
                 grid-column-end: 3;
                 grid-column-start: 1;
+                h4 {
+                    font-size: 1rem;
+                    font-weight: 300;
+                    margin-top: 0;
+                    text-transform: uppercase;
+                    color: $orange;
+                }
                 h2 {
-                    color: $white;
+                    color: $green;
                     font-size: 2.5rem;
                     justify-self: center;
                     margin: auto;
                     padding-bottom: 2rem;
-                    max-width: 400px;
+                    max-width: 600px;
                     line-height: 1.5;
-                }
-
-                .links {
-                    a{
-                        font-family: 'Open Sans', sans-serif;
-                    }
+                    font-family: 'Shippori Mincho';
                 }
             }
             .description {
@@ -84,22 +89,38 @@ $orange: #EE6C4D;
                 grid-column-start: 3;
                 grid-column-end: 5;
                 line-height: 1.5;
+                text-align: left;
             }
         }
-        
-        .divide{
-            margin: 4rem auto 4rem auto;
-            border-top: solid 1px $orange;
-            width: 80%;
+        .links-proyectos {
+            width: 100%;
+            margin: auto;
+            display: block;
+            margin-top: 4rem;
+            p{
+                color: $green;
+                font-size: 1rem;
+                margin-right: 2rem;
+            }
+            a{
+                font-family: 'Open Sans', sans-serif;
+            }
         }
-
         .detail-img {
+            p.description2 {
+                font-size: 1.2rem;
+                padding: 7rem;
+                width: 45%;
+                text-align: left;
+                margin-left: 9rem;
+                color: #fff;
+            }
             img{
-                max-width: 800px;
-                border-radius: 5px;
+                width: 100%;
+                // border-radius: 5px;
                 display: block;
                 margin: auto;
-                margin-bottom: 3rem;
+                // margin-bottom: 3rem;
             }
         }
     }

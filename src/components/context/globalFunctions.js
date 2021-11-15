@@ -14,11 +14,12 @@ const AppProvider = ({ children }) => {
         setIsSidebarOpen(false);
     }
 
+
     return <AppContext.Provider 
         value={{ 
             isSidebarOpen,
             openSidebar,
-            closeSidebar
+            closeSidebar,
         }}
     >
         { children }

@@ -8,15 +8,15 @@ $orange: #EE6C4D;
 
 
 .projects-page {
-    margin: 3rem 10rem 20rem 10rem;
+    margin: 2rem 10rem 10rem 10rem;
     display: block;
-    background: rgba(25,29,41,0.85);
-    border: solid 1px #fff;
+    background: rgba(25,29,41,0.3);
+    border: solid 1px $orange;
     border-radius: 20px;
     padding: 2rem 4rem 4rem 4rem;
     
     img{
-        max-height: 250px;
+        max-height: 350px;
         border-radius: 5px;
     }
     .divisor{
@@ -74,12 +74,12 @@ $orange: #EE6C4D;
         margin: auto;
         margin-left: 0;
         grid-column-start: 1;
-        grid-column-end: 4;
+        grid-column-end: 5;
         grid-row-end: 0;
     }
 
     .project-right{
-        grid-column-start: 2;
+        grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 2;
         display: flex;
@@ -89,8 +89,8 @@ $orange: #EE6C4D;
 }
 
 .project-info {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     color: $blue;
     max-width: 800px;
     h2{

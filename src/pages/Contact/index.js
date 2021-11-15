@@ -74,7 +74,7 @@ const Contact = () => {
                     data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration='1500'
-                >Mandame un mensaje por mail, ni bien lo vea te contesto!</h4>
+                >Mandame un mail por cualquier proyecto o por simplemente ponerte en contacto conmigo, ni bien lo vea te contesto!</h4>
                 <form className="contact-form" onSubmit={onSubmit}>
                     <input
                         className='form-input input-name' 

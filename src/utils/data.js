@@ -12,23 +12,41 @@ import LaraVersiones from '../imgs/lara-del-mar/versiones-de-marca.jpg';
 import LaraTrama from '../imgs/lara-del-mar/trama.jpg';
 
 import Api from '../imgs/e-commerce-api/tienda-api.JPG';
-import ApiHome from '../imgs/e-commerce-api/home-api.JPG';
-import ApiProduct from '../imgs/e-commerce-api/producto-api.JPG';
 import ApiLogo from '../imgs/e-commerce-api/Api-logo.jpg';
+import ApiPortada from '../imgs/e-commerce-api/api-portada-fondo-blanco.jpg';
+import ApiWeb from '../imgs/e-commerce-api/api-web.png';
+
 
 import Picos from '../imgs/picos/Picos.jpg';
+
+//LOGOFOLIO
+import logofolioPortada from '../imgs/logofolio/logofolio-portada.jpg';
+import logofolio01 from '../imgs/logofolio/logofolio-01.jpg';
+import logofolio02 from '../imgs/logofolio/logofolio-02.jpg';
+import logofolio03 from '../imgs/logofolio/logofolio-03.jpg';
+import logofolio04 from '../imgs/logofolio/logofolio-04.jpg';
+import logofolio05 from '../imgs/logofolio/logofolio-05.jpg';
+import logofolio06 from '../imgs/logofolio/logofolio-06.jpg';
+import logofolio07 from '../imgs/logofolio/logofolio-07.jpg';
+import logofolio08 from '../imgs/logofolio/logofolio-08.jpg';
+import logofolio09 from '../imgs/logofolio/logofolio-09.jpg';
+import logofolio10 from '../imgs/logofolio/logofolio-10.jpg';
+
+
 
 export const data = [
         {
             nameL: 'E-commerce API',
             srcL: Api,
-            srcL2: ApiHome,
-            srcL3: ApiProduct,
+            srcL2: ApiWeb,
             srcL4: ApiLogo,
+            srcLPortada: ApiPortada,
             categoryL: 'Desarrollo web y Diseño Gráfico',
             descriptionL: 'E-commerce realizada con React, Firebase, React-router-dom y Sass. Construcción de Logo e identidad de marca.',
-            descriptionL2: 'API es un emprendimiento de materiales didácticos para niños y niñas. En este proyecto, en base a un naming ya elegido por el cliente, realicé el logo de la marca, además de unas tarjetas de presentación y calcomanías para el packaging de la marca. En estos momentos está en construcción también el sitio web. El mismo, está siendo creado con React y utiliza Firebase como backend para poder almacenar información y su autenticación. ',
-            inConstruction: 'Sitio web en construcción',
+            descriptionL2: 'API es un emprendimiento de materiales didácticos para niños y niñas. En este proyecto, en base a un naming ya elegido por el cliente, realicé el logo de la marca, y la página web, además de unas tarjetas de presentación y calcomanías para el packaging de la marca.',
+            descriptionL3: 'En estos momentos el sitio web está en construcción. El mismo, está siendo creado con React, Redux, Sass y Firebase como backend para almacenar datos de la tienda y autenticación de usuarios. ',
+            descriptionL4: 'Versiones de marca con paleta de colores. Además de tarjetas de presentación y calcomanías para usar en el packaging de los productos.',
+            categoryDescriptionL: 'Desarrollo web. Diseño de marca.',
             repoL: 'https://github.com/Fitto-A/e-commerce-react',
             id: 0,
             detailsL: true,
@@ -56,13 +74,15 @@ export const data = [
         {    
             nameR: 'Diseño de marca Lara del Mar',
             srcR: Lara,
-            srcR2: LaraLogo,
+            srcR2: LaraLogo, 
             srcR3: LaraPlacas,
             srcR4: LaraVersiones,
             srcR5: LaraTrama,
             categoryR: 'Diseño Gráfico',
             descriptionR: 'Lara del Mar es una empresa de perfumes de imitación. En este proyecto desarrollé el logo y diferentes placas para las redes sociales.',
-            descriptionR2: 'Lara del Mar es una empresa de perfumes de imitación. En este proyecto desarrollé el logo y diferentes placas para las redes sociales. La marca busca representar un concepto de frescura, y a su vez, un logo que sea simple, geométrico y estético como los frascos de perfumes. Para la construcción del símbolo se usó la letra L de forma espejada para representar ese concepto de imitación.',
+            descriptionR2: 'Lara del Mar es una empresa de perfumes de imitación. En este proyecto desarrollé el logo y diferentes placas para las redes sociales.',
+            descriptionR3: 'La marca busca representar un concepto de frescura, y a su vez, un logo que sea simple, geométrico y estético como los frascos de perfumes. Para la construcción del símbolo se usó la letra L de forma espejada para representar ese concepto de imitación.',
+            categoryDescriptionR: 'Diseño de marca. Diseño de packaging.',
             id: 3,
             detailsR: true,
         },
@@ -100,5 +120,27 @@ export const data = [
             descriptionR: 'Diseño de íconos y tarjetas para Picos.',
             urlBehanceR: 'https://www.behance.net/gallery/100192623/Iconos-picos',
             id: 7,
-        }
+        },
+        {
+            nameL: 'Logofolio',
+            srcLPortada: logofolioPortada,
+            srcL: logofolioPortada,
+            srcL2: logofolio01,
+            srcL3: logofolio02,
+            srcL4: logofolio03,
+            srcL5: logofolio04,
+            srcL6: logofolio05,
+            srcL7: logofolio06,
+            srcL8: logofolio07,
+            srcL9: logofolio08,
+            srcL10: logofolio09,
+            srcL11: logofolio10,
+            categoryL: 'Diseño Gráfico',
+            descriptionL: 'Logofolio de marcas e iconos realizados entre 2019 y 2021.',
+            descriptionL2: 'Logofolio de marcas e iconos realizados entre 2019 y 2021.',
+            moreInfoL: 'Logofolio de marcas e iconos realizados entre 2019 y 2021.',
+            categoryDescriptionL: 'Diseño de marca.',
+            detailsL: true,
+            id: 8,
+        },
 ]

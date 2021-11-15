@@ -16,9 +16,8 @@ $orange: #EE6C4D;
     background-color: none;
     .logo-name {
         display: flex;
-
         h3 {
-            margin-left: 3rem;
+            margin-left: 4rem;
             font-size: 1.6rem;
             font-weight: 500;
         }
@@ -54,11 +53,12 @@ $orange: #EE6C4D;
     a{
         font-size: 1.4rem;
         color: $green;
-        padding: 2.5rem;
+        padding: 2.5rem 0 2.5rem 3rem;
         text-decoration: none;
         transform: translate(10px, 10px);
         transition: all 1s ease-in-out;
     }
+
 
     .proyectos-link:hover{
         color: $orange;

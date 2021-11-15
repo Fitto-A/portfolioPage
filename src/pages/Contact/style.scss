@@ -4,6 +4,7 @@ $green: #38ABA3;
 $white: #ECEBF3;
 $brown: #B98B02;
 $yellow: #F1C711;
+$orange: #EE6C4D;
 
 .contact {
     height: 80%;
@@ -11,8 +12,8 @@ $yellow: #F1C711;
     text-align: center;
     display: block;
     margin: 4rem auto 8rem auto;
-    background: rgba(25, 29, 41, 0.85);
-    border: solid 1px #fff;
+    background: rgba(25,29,41,0.5);
+    border: solid 1px $orange;
     border-radius: 20px;
     padding: 1rem 2rem;
 
@@ -24,8 +25,8 @@ $yellow: #F1C711;
             margin: auto;
             font-size: 1.5rem;
             text-transform: uppercase;
-            color: $yellow;
-            border: solid 2px $yellow;
+            color: $orange;
+            border: solid 2px $orange;
             max-width: 300px;
             margin-top: -3rem;
             transition: all 0.5s ease-in-out;
