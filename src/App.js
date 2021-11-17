@@ -17,8 +17,6 @@ import Tools from './pages/Tools';
 import Contact from './pages/Contact'; 
 import ProjectDetail from './pages/ProjectDetail';
 
-
-
 const App = () =>  {
 
   const handleScrollTop = () => {

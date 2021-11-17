@@ -11,8 +11,10 @@ const Sidebar = () => {
     const { isSidebarOpen, closeSidebar } = useGlobalFunctions();
 
     return (
-        <div className={isSidebarOpen ? ' sidebar-overlay sidebar-container' : "sidebar-container"}>
-            <aside className={ isSidebarOpen ? 'show-sidebar sidebar' : 'sidebar' }>
+        <div >
+        {/* <div className={isSidebarOpen ? ' sidebar-overlay sidebar-container' : "sidebar-container"}> */}
+
+            {/* <aside className={ isSidebarOpen ? 'show-sidebar sidebar' : 'sidebar' }>
                 <button className='close-btn' onClick={closeSidebar} >
                     <FaTimes />
                 </button>
@@ -36,7 +38,7 @@ const Sidebar = () => {
                         </li>
                     </ul>
                 </div>
-            </aside>
+            </aside> */}
         </div>
     )
 }

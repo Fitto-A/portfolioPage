@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './style.scss';
 import { Link } from 'react-router-dom'
 import Logo from '../../imgs/Logo-af-orange.png';
@@ -11,12 +11,17 @@ import 'aos/dist/aos.css';
 
 const Navbar = () => {
 
-    const { openSidebar } = useGlobalFunctions();
+    // const { openSidebar } = useGlobalFunctions();
+
+    const [handleMenu, setHandleMenu] = useState(false)
+
+    const changeHandleMenu = () => {
+        setHandleMenu(!handleMenu)
+    }
     
     useEffect(() => {
         Aos.init();
     }, [])
-
 
     return (
         <div data-aos="fade-down"
@@ -33,13 +38,13 @@ const Navbar = () => {
             </div>
             <div className="menu">
                 <ul>
-                    <li onClick={openSidebar}>
+                    <li onClick={() => changeHandleMenu()}>
                         <HiMenu />
                     </li>
                 </ul>
             </div>
             
-            <div className="menu-links">
+            <div className={handleMenu ? "menu-links side-menu" : "menu-links" }>
                     <ul>
                         <li>
                             <Link className='proyectos-link' to='/proyectos'>
