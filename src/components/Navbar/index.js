@@ -18,6 +18,7 @@ const Navbar = () => {
     const changeHandleMenu = () => {
         setHandleMenu(!handleMenu)
     }
+
     
     useEffect(() => {
         Aos.init();
@@ -36,7 +37,7 @@ const Navbar = () => {
 
                 <h3>Agustin Fittipaldi</h3>
             </div>
-            <div className="menu">
+            <div className={handleMenu ? "close-menu menu" : 'menu'}>
                 <ul>
                     <li onClick={() => changeHandleMenu()}>
                         <HiMenu />
@@ -47,17 +48,17 @@ const Navbar = () => {
             <div className={handleMenu ? "menu-links side-menu" : "menu-links" }>
                     <ul>
                         <li>
-                            <Link className='proyectos-link' to='/proyectos'>
+                            <Link className='proyectos-link' to='/proyectos' onClick={() => changeHandleMenu()}>
                                 PROYECTOS
                             </Link>
                         </li>
                         <li>
-                            <Link className='conocimientos-link' to='/conocimientos'>
+                            <Link className='conocimientos-link' to='/conocimientos'  onClick={() => changeHandleMenu()}>
                                 CONOCIMIENTOS
                             </Link>
                         </li>
                         <li>
-                            <Link className='contacto-link' to='/contacto'>
+                            <Link className='contacto-link' to='/contacto'  onClick={() => changeHandleMenu()}>
                                 CONTACTO
                             </Link>
                         </li>

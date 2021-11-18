@@ -1,0 +1,107 @@
+[33mcommit 079e96d76d21b848afca467a2755d3f1c76bb826[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Fitto <agustinfittipaldi.dg@gmail.com>
+Date:   Wed Nov 17 19:31:37 2021 -0300
+
+    adding proyects
+
+[33mcommit d6147360253089c56b48c577746f0349961fc84e[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Fitto-A <73656817+Fitto-A@users.noreply.github.com>
+Date:   Wed Nov 17 12:42:52 2021 -0300
+
+    Update README.md
+
+[33mcommit b0f38c270a38934f0f2aad5c956312cb05e1ca12[m
+Author: Fitto <agustinfittipaldi.dg@gmail.com>
+Date:   Mon Nov 15 19:16:03 2021 -0300
+
+    adding some styling and functionality
+
+[33mcommit c2273c3ae881abeaa830e92eac7d2e49012aabb3[m
+Author: Fitto <agustinfittipaldi.dg@gmail.com>
+Date:   Wed Nov 10 21:10:27 2021 -0300
+
+    adding responsive design
+
+[33mcommit 0664bc2c2323db1397bf2874c9923c5b4af53237[m
+Author: Fitto <agustinfittipaldi.dg@gmail.com>
+Date:   Wed Nov 10 14:35:36 2021 -0300
+
+    adding responsive design
+
+[33mcommit 614d3281056fc73ac425b8864c7f453c4e61e60d[m
+Author: Fitto <agustinfittipaldi.dg@gmail.com>
+Date:   Tue Nov 9 15:46:15 2021 -0300
+
+    adding some responsive style
+
+[33mcommit da77574c881dc8a5c989edeee56f5328fcbda381[m
+Author: Fitto <agustinfittipaldi.dg@gmail.com>
+Date:   Fri Nov 5 20:57:35 2021 -0300
+
+    redesign homepage. Adding functionality and code refactor
+
+[33mcommit e3655ea16a12cb730c6ea257a088e4c02e6b132c[m
+Author: Fitto <agustinfittipaldi.dg@gmail.com>
+Date:   Wed Sep 29 13:47:33 2021 -0300
+
+    addign responsive design
+
+[33mcommit 0f6df8986a08e31d8f8df80e596db7e889e67d8f[m
+Author: Fitto <agustinfittipaldi.dg@gmail.com>
+Date:   Wed Sep 29 11:50:22 2021 -0300
+
+    adding functionality and responsive design
+
+[33mcommit f2a24341e2ab7fe759da4b4308f70fd7dfd9f92d[m
+Author: Fitto <agustinfittipaldi.dg@gmail.com>
+Date:   Wed Sep 22 12:11:32 2021 -0300
+
+    1
+
+[33mcommit e68db47efea426a37d8644c9628d6ce73f45641b[m
+Author: Fitto <agustinfittipaldi.dg@gmail.com>
+Date:   Wed Sep 22 12:08:22 2021 -0300
+
+    router dom
+
+[33mcommit fa67e43f55e1558e854406693d5aca0ee68e31c2[m
+Author: Fitto <agustinfittipaldi.dg@gmail.com>
+Date:   Wed Sep 22 00:28:49 2021 -0300
+
+    agregando css responsive
+
+[33mcommit b26683735b237773cac492d47c1c428df30beaf8[m
+Author: Fitto <agustinfittipaldi.dg@gmail.com>
+Date:   Fri Sep 17 00:48:05 2021 -0300
+
+    agregando funcionalidad a contacto y animaciones en gral
+
+[33mcommit 6777da2c855c6acff9f67288f60ebcb616c2d582[m
+Author: Fitto <agustinfittipaldi.dg@gmail.com>
+Date:   Wed Sep 15 10:44:56 2021 -0300
+
+    correccion de rutas
+
+[33mcommit 256391eb33b52188b5d85cf168a9e3d6eb4cce67[m
+Author: Fitto <agustinfittipaldi.dg@gmail.com>
+Date:   Tue Sep 14 19:31:45 2021 -0300
+
+    correccion de rutas
+
+[33mcommit 53b9e73f8802c41eec4f0f0ddac2b6ff98993785[m
+Author: Fitto <agustinfittipaldi.dg@gmail.com>
+Date:   Tue Sep 14 18:17:51 2021 -0300
+
+    adding gh-pages
+
+[33mcommit 67249390a985f4662c4668c792a7ac1af184cd44[m
+Author: Fitto <agustinfittipaldi.dg@gmail.com>
+Date:   Tue Sep 14 18:09:37 2021 -0300
+
+    primer commit
+
+[33mcommit dacd9ede6a96484fdab3d02aa647054b9f72b628[m
+Author: Fitto <agustinfittipaldi.dg@gmail.com>
+Date:   Thu Sep 2 17:59:49 2021 -0300
+
+    Initialize project using Create React App
