@@ -21,7 +21,7 @@ $orange: #ee6c4d;
 }
 .active-btn {
   opacity: 1;
-  display: flex;
+  display: none;
   justify-content: flex-end;
   padding-right: 1rem;
   padding-top: 1rem;
@@ -521,6 +521,9 @@ $orange: #ee6c4d;
 }
 
 @media screen and (max-width: 500px) {
+  .active-btn {
+    display: flex;
+  }
   .proyectos-home-container {
     .box-left {
       display: flex;

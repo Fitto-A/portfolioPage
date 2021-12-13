@@ -43,19 +43,23 @@ const Navbar = () => {
 
         <h3>Agustin Fittipaldi</h3>
       </div>
-      <div className={handleMenu ? "close-menu menu" : "menu"}>
-        <ul>
-          <li onClick={() => changeHandleMenu()}>
-            <HiMenu />
-          </li>
-        </ul>
-      </div>
-      <div className={handleMenu ? "close-menu-x menu menu-x" : "menu menu-x"}>
-        <ul>
-          <li onClick={() => changeHandleMenu()}>
-            <IoClose />
-          </li>
-        </ul>
+      <div className="menu-wrapper">
+        <div className={handleMenu ? "close-menu menu" : "menu"}>
+          <ul>
+            <li onClick={() => changeHandleMenu()}>
+              <HiMenu />
+            </li>
+          </ul>
+        </div>
+        <div
+          className={handleMenu ? "close-menu-x menu menu-x" : "menu menu-x"}
+        >
+          <ul>
+            <li onClick={() => changeHandleMenu()}>
+              <IoClose />
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div className={handleMenu ? "menu-links side-menu" : "menu-links"}>
